@@ -5,7 +5,9 @@
 // Ex.:
 //   giveMeTwo();
 //   => 2
-const giveMeTwo = undefined;
+const giveMeTwo = (x) => {
+    return x = 2
+};
 
 // Set the value of addNums to an arrow function that takes in two numbers and
 // returns their sum.
