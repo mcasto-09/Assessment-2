@@ -7,7 +7,7 @@
 //   => 2
 const giveMeTwo = (x) => {
     return x = 2
-};
+}
 
 // Set the value of addNums to an arrow function that takes in two numbers and
 // returns their sum.
@@ -15,7 +15,10 @@ const giveMeTwo = (x) => {
 // Ex.:
 //   addNums(1, 2);
 //   => 3
-const addNums = undefined;
+const addNums = (x,y) => {
+    let sum = x + y
+    return sum
+}
 
 // Set the value of max to an arrow function that takes in two numbers and
 // returns the largest one.
@@ -23,7 +26,15 @@ const addNums = undefined;
 // Ex.:
 //   max(1, 2);
 //   => 2
-const max = undefined;
+const max = (x,y) => {
+    if (x > y) {
+        return x
+    } else {
+        if (y > x) {
+            return y
+        }
+    }
+}
 
 // Given an array of numbers, return a new array that only includes the even
 // numbers. Do this using array iteration methods. Do NOT use a for loop.
@@ -31,8 +42,7 @@ const max = undefined;
 // Ex.:
 //   evens([1, 2, 3, 4, 5]);
 //   => [2, 4]
-function evens(nums) {}
-
+let evens = (arr => (arr.filter(num => num % 2 === 0)))
 // Given an array of names, return a new array of greetings for each name. Do
 // this using array iteration methods. Do NOT use a for loop.
 //
