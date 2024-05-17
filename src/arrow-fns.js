@@ -49,7 +49,7 @@ let evens = (arr => (arr.filter(num => num % 2 === 0)))
 // Ex.:
 //   createGreetings(['Clive', 'Jill', 'Torgal']);
 //   => ['Hello, Clive!', 'Hello, Jill!', 'Hello, Torgal!']
-function createGreetings(names) {}
+let createGreetings = (names => names.map(name => `Hello, ${name}!`));
 
 // Given an array of words, return a new array where each word is uppercased
 // and only includes words that are longer than 4 characters. Do this using
