@@ -58,6 +58,8 @@ let createGreetings = (names => names.map(name => `Hello, ${name}!`));
 // Ex.:
 //   loudLongWords(['apple', 'pear', 'cake', 'pinata']);
 //   => ['APPLE', 'PINATA']
-function loudLongWords(words) {}
+let loudLongWords = (words) => {
+    return words.filter(word => word.length > 4).map(word => word.toUpperCase());
+}
 
 export { addNums, createGreetings, evens, giveMeTwo, loudLongWords, max };
