@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+table, th, td {
+    border: 1px solid white;
+    padding: 5px;
+}
+
+table {
+    margin-top: 50px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+br {
+    margin: 10px;
+}
